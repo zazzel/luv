@@ -27,9 +27,7 @@ env:
 jobs:
   exclude:
     - arch: ppc64le
-      env: WITH_LUA_ENGINE=LuaJIT LUA=luajit2.1
-    - arch: ppc64le
-      env: LUAROCKS=3.4.0 WITH_LUA_ENGINE=LuaJIT LUA=luajit2.1 
+      env: LUA=luajit2.1
 
 os:
   - linux
